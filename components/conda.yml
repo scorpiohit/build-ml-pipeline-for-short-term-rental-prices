@@ -4,3 +4,6 @@ channels:
   - defaults
 dependencies:
   - mlflow=1.14.1
+  - pip=20.3.3
+  - pip:
+     - pip-system-certs 
