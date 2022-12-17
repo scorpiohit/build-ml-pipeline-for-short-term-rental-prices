@@ -6,4 +6,5 @@ dependencies:
   - pip=20.3.3
   - pandas=1.2.3
   - pip:
+      - pip-system-certs
       - wandb==0.10.31
