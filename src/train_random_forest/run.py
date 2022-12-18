@@ -122,9 +122,9 @@ def go(args):
             description="Random Forest pipeline export",
             metadata= rf_config
         )
-        artifact.add_dir(export_path)
+    artifact.add_dir(export_path)
 
-        run.log_artifact(artifact)
+    run.log_artifact(artifact)
 
     # Make sure the artifact is uploaded before the temp dir
     # gets deleted
