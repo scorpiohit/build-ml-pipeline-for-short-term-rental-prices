@@ -128,7 +128,7 @@ def go(args):
 
     # Make sure the artifact is uploaded before the temp dir
     # gets deleted
-        artifact.wait()
+    artifact.wait()
 
 
     # Plot feature importance
