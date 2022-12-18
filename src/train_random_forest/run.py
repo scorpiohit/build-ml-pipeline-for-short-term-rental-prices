@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 
 import mlflow
 import json
+import tempfile
 
 import pandas as pd
 import numpy as np
