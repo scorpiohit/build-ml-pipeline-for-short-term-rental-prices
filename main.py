@@ -50,6 +50,7 @@ def go(config: DictConfig):
             )
 
         if "basic_cleaning" in active_steps:
+            # Perform basic cleaning on sample data
             _ = mlflow.run(
                os.path.join(hydra.utils.get_original_cwd(), "src", "basic_cleaning"),
                "main",
